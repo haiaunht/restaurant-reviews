@@ -1,5 +1,6 @@
 import React, { useState, useEffect}  from "react"
 import CategoryTile from './CategoryTile'
+import RestaurantList from "./RestaurantList";
 
 const CategoryList = (props) => {
     const [categories, setCategories] = useState([])
@@ -24,14 +25,23 @@ const CategoryList = (props) => {
         getCategories()
     }, [])
 
+  console.log(categories)
     const listOfCategories = categories.map(category => {
+      console.log(category.type)
         return(
+            <>
             <CategoryTile
                key={category.id}
                id={category.id}
                type={category.type}
                desc={category.description}
             />
+            <RestaurantList
+              key={category.id}
+              id={category.id}
+              type={category.type}
+            />
+            </>
         )
     })
 

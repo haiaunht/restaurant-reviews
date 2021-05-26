@@ -6,11 +6,12 @@ import RestaurantList from "./RestaurantList";
 import CategoryList from "./CategoryList";
 import ReviewForm from "./ReviewForm";
 import RestaurantForm from "./RestaurantForm";
+import NavBar from "./NavBar";
 
 const App = props => {
   return (
       <BrowserRouter>
-
+        <NavBar />
         <div>
           <div>
             <Switch>

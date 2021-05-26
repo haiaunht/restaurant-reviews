@@ -19,7 +19,8 @@ const ReviewForm = props => {
       const response = await fetch("/api/v1/review", {
         method: "POST",
         headers: new Headers({
-          "Content-Type": "review/json"
+          // "Content-Type": "review/json"
+          "Content-Type": "application/json"
         }),
         body: JSON.stringify(formPayload)
       })
