@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .banner{
@@ -39,7 +38,8 @@
     width: 400px;
     background-color: #fff;
     text-align: center;
-    padding: 20px;
+        padding-top: 25px;
+        padding-left: 40px;
     box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
     margin-right: 24px;
 }
@@ -54,8 +54,8 @@
 
 /* This is a way to force the images to fit without stretching them too much, but in a professionl environment you will have images that are the right dims or at least the right width/height ratip */
 .category-img img{
-min-width:320px;
-min-height:250px;
+    min-width:320px;
+    min-height:250px;
 }
 
 
@@ -80,3 +80,8 @@ min-height:250px;
     font-weight: bolder;
     text-shadow: 2px 2px #1779BA;
 }
+
+.category-details{
+ padding-right: 39px;
+}
+

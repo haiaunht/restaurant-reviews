@@ -51,10 +51,15 @@
 .write-review-button {
   display: inline-block;
   padding: 1em;
-  background-color: #ccc;
+  background-color: #aaa;
   margin-bottom: 2em;
-  border-radius: 8px;
   cursor: pointer;
+  border-radius:50px;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    text-transform: lowercase;
+    font-size: 13pt;
+    color: white;
+
 }
 
 .write-review-button:hover {
@@ -88,12 +93,60 @@ font-size: .75em;
   border: black;
 }
 
-.review-button {
+#review-button {
   padding: 20px;
-  border-radius: 7px;
-  background-color: #F43939;
+  border-radius: 50px;
+  background-color: #d4d4d4;
+  margin-right: 10px;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  text-transform: lowercase;
+  font-size: 13pt;
+  color: #fff;
+  font-variant: small-caps;
+
 }
 
 form {
   margin-top: 80px;
+}
+
+.restaurant-details{
+ padding-right: 30px;
+}
+
+.restaurant-box{
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 350px;
+    max-width: 100%;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 10pt;
+    font-variant: small-caps;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 29px;
+    padding-left: 3px;
+    padding-bottom: 13px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+    margin-right: 24px;
+}
+
+.biz-name {
+    margin-left: 12px;
+    font-size:1.9375rem;
+}
+
+.transform{
+ transition: transform 1s;
+ min-width:320px;
+ min-height:250px;
+}
+
+.transform:hover{
+transform: scale(1);
+opacity:0.3;
 }

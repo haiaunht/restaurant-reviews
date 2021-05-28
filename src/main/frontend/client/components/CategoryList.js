@@ -38,9 +38,9 @@ const CategoryList = (props) => {
 
     return(
       <>
-        <div className="content">
-                {listOfCategories}
-        </div>
+      <div className="content">
+        {listOfCategories}
+      </div>
       </>
     )
 }

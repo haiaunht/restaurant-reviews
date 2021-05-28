@@ -8,9 +8,9 @@ let date = new Date(props.datePosted).toDateString()
       <div className="review-tile">
         <div className="review-form">        
           <div className="write-review-button">
-            Write a Review
+          <Link to={`/${props.id}/review/new`}>Write a Review</Link>
           </div>
-        </div>
+       </div>
 
         <div className="stars-and-review-date">
           <span className="review-stars">

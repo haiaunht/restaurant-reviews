@@ -1,0 +1,18 @@
+#review-form{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 1033px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+    background: rgb(23 121 186 / 0%);  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+#review-form h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: teal;
+  text-align: center;
+}

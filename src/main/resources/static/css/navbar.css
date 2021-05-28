@@ -7,8 +7,8 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  background-color: rgba(0,0,0,.8);
-  background-opacity: 0.6;
+  background-color: ghostwhite;
+ /* background-opacity: 0.1;*/
   font-variant: small-caps;
   text-transform: lowercase;
 }
@@ -18,6 +18,7 @@
   text-transform: lowercase;
   font-size: 13pt;
   color: #62C2F4;
+  background-opacity: 0.3;
   }
 }
 
