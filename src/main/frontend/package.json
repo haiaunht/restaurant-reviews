@@ -16,7 +16,7 @@
     "css-loader": "^2.1.1",
     "cookie-parser": "~1.4.3",
     "flash": "^1.1.0",
-    "hbs": "~4.0.1",
+    "hbs": "~4.2.0",
     "http-errors": "~1.6.2",
     "json-loader": "^0.5.4",
     "json2csv": "^4.4.1",
